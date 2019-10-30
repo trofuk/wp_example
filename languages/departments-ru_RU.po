@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-03-03 20:29+0200\n"
+"PO-Revision-Date: 2017-06-28 14:11+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: admin_panel.php:12
+msgid "Department address"
+msgstr "Адрес отделения"
+
+#: admin_panel.php:20
+msgid "Department contacts"
+msgstr "Контакты отделения"
+
+#: admin_panel.php:28
+msgid "Department working hours"
+msgstr "Часы работы отделения"
+
+#: admin_panel.php:36
+msgid "Department services"
+msgstr "Услуги отделения"
+
+#: admin_panel.php:97
+msgid "Add new contact"
+msgstr "Добавить новый контакт"
+
+#: admin_panel.php:98 admin_panel.php:112 admin_panel.php:122
+#: admin_panel.php:130
+msgid "Save"
+msgstr "Сохранить"
+
+#: admin_panel.php:99 admin_panel.php:113 admin_panel.php:123
+#: admin_panel.php:131
+msgid "Delete"
+msgstr "Удалить"
+
+#: admin_panel.php:100
+msgid "Choose type"
+msgstr " Выберите тип"
+
+#: admin_panel.php:101
+msgid "Enter value"
+msgstr "Введите значение"
+
+#: admin_panel.php:104
+msgid "Phone"
+msgstr "Телефон"
+
+#: admin_panel.php:105
+msgid "Email"
+msgstr "Электронная почта"
+
+#: admin_panel.php:111
+msgid "Add record"
+msgstr "Добавить запись"
+
+#: admin_panel.php:114
+msgid "Enter days"
+msgstr "Введите дни"
+
+#: admin_panel.php:115
+msgid "Enter time"
+msgstr "Введите часы"
+
+#: admin_panel.php:121
+msgid "Add category"
+msgstr "Добавить категорию"
+
+#: admin_panel.php:124 admin_panel.php:132
+msgid "Enter name"
+msgstr "Введите название"
+
+#: admin_panel.php:125
+msgid "Category"
+msgstr "Категория"
+
+#: admin_panel.php:126
+msgid "Are you sure? Services in category will be also deleted!"
+msgstr "Вы уверены?"
+
+#: admin_panel.php:129
+msgid "Add service"
+msgstr "Добавить услугу"
+
+#: admin_panel.php:133
+msgid "Service"
+msgstr "Услуга"
+
+#: department_post_type.php:12 department_post_type.php:14
+#: department_post_type.php:16
+msgid "Departments"
+msgstr "Отделения"
+
+#: department_post_type.php:13 department_post_type.php:15
+msgid "Department"
+msgstr "Отделение"
+
+#: department_post_type.php:19
+msgid "View all department"
+msgstr "Все отделения"
+
+#: department_post_type.php:20
+msgid "Create new department"
+msgstr "Новое отделение"
+
+#: department_post_type.php:21 department_post_type.php:22
+msgid "New department"
+msgstr "Добавить отделение"
+
+#: department_post_type.php:23
+msgid "Edit department"
+msgstr "Редактировать отделение"
+
+#: department_post_type.php:24
+msgid "Update department"
+msgstr "Обновить отделение"
+
+#: department_post_type.php:25
+msgid "View Department"
+msgstr "Просмотреть отделение"
+
+#: department_post_type.php:26
+msgid "View all departments"
+msgstr "Просмотреть все отделения"
+
+#: department_post_type.php:27
+msgid "search departments"
+msgstr "поиск отделений"
+
+#: department_post_type.php:28
+msgid "departments not_found"
+msgstr "отделения не найдены"
+
+#: department_post_type.php:29
+msgid "departments not_found_in_trash"
+msgstr "отделения в корзине не найдены"
+
+#: department_post_type.php:30
+msgid "Featured image"
+msgstr "Картинка отделения"
+
+#: department_post_type.php:31
+msgid "Set featured image"
+msgstr "Установить картинку отделения"
+
+#: department_post_type.php:32
+msgid "Remove featured image"
+msgstr "Удалить картинку отделения"
+
+#: department_post_type.php:33
+msgid "Use featured image"
+msgstr "Использовать картинку отделения"
+
+#: department_post_type.php:47
+msgid "Departments ...."
+msgstr "Название плагина"
+
+#: department_post_type.php:48
+msgid "departments ..."
+msgstr "Описание плагина"
+
+#: partials/department_address_block.php:13
+msgid "Address"
+msgstr "Адрес"
+
+#: partials/department_address_block.php:15
+msgid "required"
+msgstr "Обязательно"
+
+#: partials/department_address_block.php:26
+msgid "Coordinates"
+msgstr "Координаты"
+
+msgid "Are you sure? Services in category will be also deleted."
+msgstr "Вы уверены? Услуги в категории также будут удалены!"

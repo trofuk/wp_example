@@ -1,0 +1,224 @@
+.departments-viewport{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #fff;
+	transform: translateY(-100vh);
+	transition: transform .4s;
+	z-index: 1001;
+}
+@media screen and (max-width: 767px){
+	.departments-viewport{
+		display: none;
+	}
+}
+.departments-viewport *{
+	box-sizing: border-box;
+}
+.departments-viewport-inner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.departments-with-adminbar .departments-viewport-inner{
+	top: 32px;
+}
+@media screen and (max-width: 782px){
+	.departments-with-adminbar .departments-viewport-inner{
+		top: 46px;
+	}
+}
+
+.departments-map{
+	position: absolute;
+	top: 0;
+	left: 400px;
+	height: 100%;
+	right: 0;
+	z-index: 1;
+}
+
+.departments-close{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	top: 0;
+	right: 0;
+	color: #fff;
+	font-size: 28px;
+	text-align: center;
+	background-color: #09093a;
+	cursor: pointer;
+	z-index: 5;
+}
+
+.departments-list{
+	background: #fff;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 400px;
+	position: absolute;
+	z-index: 4;
+	overflow: hidden;
+}
+
+.departments-item{
+}
+.departments-item-image{
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #eee;
+}
+.departments-item-head{
+    position: relative;
+    background: #09093a;
+    padding: 15px;
+}
+.departments-item-link {
+    background: #fff;
+    display: block;
+    width: 70px;
+    height: 70px;
+    line-height: 58px;
+    text-align: center;
+    font-size: 56px;
+    border-radius: 100%;
+    position: absolute;
+    top: -32px;
+    right: 25px;
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0, .1);
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNzY4IiBoZWlnaHQ9Ijc2OCIgdmlld0JveD0iMCAwIDc2OCA3NjgiPjxnIGlkPSJpY29tb29uLWlnbm9yZSI+PC9nPjxwYXRoIGZpbGw9IiMwOTA5M2EiIGQ9Ik00NDguNSA5NmgyMjMuNXYyMjMuNWgtNjQuNXYtMTE0bC0zMTMuNSAzMTMuNS00NS00NSAzMTMuNS0zMTMuNWgtMTE0di02NC41ek02MDcuNSA2MDcuNXYtMjIzLjVoNjQuNXYyMjMuNWMwIDM0LjUtMzAgNjQuNS02NC41IDY0LjVoLTQ0N2MtMzYgMC02NC41LTMwLTY0LjUtNjQuNXYtNDQ3YzAtMzQuNSAyOC41LTY0LjUgNjQuNS02NC41aDIyMy41djY0LjVoLTIyMy41djQ0N2g0NDd6Ij48L3BhdGg+PC9zdmc+);
+	background-size: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.departments-item-title {
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 15px;
+    padding-right: 85px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.departments-item-row{
+	margin: 0 -15px;
+}
+.departments-item-row:before, .departments-item-row:after{
+	content: '';
+	clear: both;
+	display: table;
+}
+.departments-item-col{
+	width: 50%;
+	float: left;
+	padding: 0 15px;
+}
+.departments-item-contact {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    line-height: 28px;
+    text-decoration: none;
+    outline: none;
+}
+.departments-item-contact:hover {
+    color: #fff;
+}
+.departments-item-hours {
+    border-collapse: initial;
+    margin: 0;
+    width: 100%;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 4px;
+}
+.departments-item-hours tr {
+    border: none;
+}
+.departments-item-hours td {
+    padding: 0;
+    white-space: nowrap;
+    line-height: 18px;
+}
+
+.departments-item-services {
+    padding: 0 15px 15px 15px;
+}
+
+.departments-item-service-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #09093a;
+    margin: 15px 0 10px 0;
+}
+
+.departments-item-service {
+    font-size: 14px;
+    line-height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 25px;
+    text-overflow: ellipsis;
+    position: relative;
+}
+
+.departments-item-service:before {
+    content: '';
+    position: absolute;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNzY4IiBoZWlnaHQ9Ijc2OCIgdmlld0JveD0iMCAwIDc2OCA3NjgiPjxnIGlkPSJpY29tb29uLWlnbm9yZSI+PC9nPjxwYXRoIGZpbGw9IiMwOTA5M2EiIGQ9Ik0zMTkuNSA1NDQuNWwyODgtMjg4LTQ1LTQ2LjUtMjQzIDI0My0xMTQtMTE0LTQ1IDQ1ek02MDcuNSA5NmMzNiAwIDY0LjUgMzAgNjQuNSA2NC41djQ0N2MwIDM0LjUtMjguNSA2NC41LTY0LjUgNjQuNWgtNDQ3Yy0zNiAwLTY0LjUtMzAtNjQuNS02NC41di00NDdjMC0zNC41IDI4LjUtNjQuNSA2NC41LTY0LjVoNDQ3eiI+PC9wYXRoPjwvc3ZnPg==);
+    top: 0;
+    left: 0;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-size: 16px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+/*
+ * Customize scrollbar
+ */
+.departments-viewport .scroll-element, .departments-viewport .scroll-element div{
+	border: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 10;
+}
+.departments-viewport .scroll-element div {
+	display: block;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.departments-viewport .scroll-element.scroll-y {
+	height: 100%;
+	right: 0;
+	top: 0;
+	width: 5px;
+}
+.departments-viewport .scroll-element .scroll-element_outer {
+	overflow: hidden;
+}
+.departments-viewport .scroll-element .scroll-element_track, .scroll-element .scroll-bar {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+}
+.departments-viewport .scroll-element .scroll-element_track { background-color: #e0e0e0; }
+.departments-viewport .scroll-element .scroll-bar { background-color: #c2c2c2; }
+.departments-viewport .scroll-element:hover .scroll-bar { background-color: #919191; }
+.departments-viewport .scroll-element.scroll-draggable .scroll-bar { background-color: #919191; }

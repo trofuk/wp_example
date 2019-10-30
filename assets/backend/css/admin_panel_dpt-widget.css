@@ -1,0 +1,110 @@
+    .dpt-widget
+    {   
+        /*Main widget styles*/
+        /*Class now using as unique prefix for plugin*/
+        margin-bottom:20px;
+    }
+    .dpt-widget .widget-control
+    {
+        text-align: right;
+    }
+    .dpt-widget .widget-item, .dpt-widget .widget-sub-item, .dpt-widget .widget-control
+    {
+       margin-top:20px;
+    }
+    /* mark */
+    .dpt-widget .widget-item.empty .widget-control
+    {
+        display:none;
+    }
+    .dpt-widget .sub-items-block
+    {
+        min-height: 10px;
+    }
+    .dpt-widget .widget-item .sub-items-block
+    {
+        margin-left: 50px;
+    }
+    .dpt-widget .widget-item.placeholder{
+        border:1px dashed #7b7e84;
+    }
+    .dpt-widget .widget-header
+    {
+        position: relative;
+        background: #fafafa;
+        padding: 10px 15px;
+        height: 18px;
+        border: 1px solid #ddd;
+    }
+    .dpt-widget .widget-header .header-title
+    {
+        font-size: 14px;
+        font-weight: 600;
+        color: #23282d;
+    }
+
+    .dpt-widget .widget-header .header-controls
+    {
+        display:inline-block;
+        position:absolute;
+        right: -1px;
+        top: -1px;
+    }
+    .dpt-widget .widget-header .header-controls .control-type
+    {
+        font-size: 12px;
+        line-height: 40px;
+        padding-right:15px; 
+    }
+    .dpt-widget .widget-header .header-controls .control-edit
+    {
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+        border-left: 1px solid #ddd;
+    }
+    .dpt-widget .widget-edit-block
+    {
+        max-height: 0;
+        overflow: hidden;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-top: none;
+        -moz-transition: max-height .6s ease-in-out;
+        -webkit-transition: max-height .6s ease-in-out;
+        -o-transition: max-height .6s ease-in-out;
+        transition: max-height .6s ease-in-out;
+    }
+    .dpt-widget .widget-edit-block.opened{
+        max-height: 1000px;
+        -moz-transition: max-height 1s ease-in-out;
+        -webkit-transition: max-height 1s ease-in-out;
+        -o-transition: max-height 1s ease-in-out;
+        transition: max-height 1s ease-in-out;
+    }
+    /* end widget*/
+    /*form group*/
+    /*Need to rewrite*/
+    .form{
+        padding:10px 0;
+    }
+    .form-group{
+        margin: 0px 10px 10px;
+    }
+    .form-group label{
+        display: block;
+        font-size: 14px;
+        color:#666;
+        margin-bottom:6px; 
+    }
+    .form-group input, .form-group textarea, .form-group select{
+        width:100%;
+    }
+    .form-group.controls
+    {
+        margin: 20px 10px 15px 10px;
+    }
+    .form-group.controls .button
+    {
+        margin-right:20px;
+    }
